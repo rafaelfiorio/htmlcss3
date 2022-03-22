@@ -2,6 +2,61 @@
 Folha de estilo site one page HTML5 e CSS3
 */
 
-body {
-    background-color: #ff0000;
+
+
+
+/*  SmartPhone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+
+/*  SmartPhone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 576px) 
+{ 
+    body
+    {
+            background-color: #00ffff;
+    }
+
 }
+    
+
+
+
+/*  Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 768px) 
+{ 
+    body
+    {
+            background-color: #ffff00;
+    }
+
+}
+
+
+
+
+/*  Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 992px) 
+{ 
+    body
+    {
+            background-color: #ff6600;
+    }
+
+}
+
+
+/*  PC >>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 1200px) 
+{ 
+    body
+    {
+            background-color: #ff0000;
+    }
+
+}
+
+
+
+
