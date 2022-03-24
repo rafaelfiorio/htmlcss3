@@ -2,7 +2,35 @@
 Folha de estilo site one page HTML5 e CSS3
 */
 
+/* CSS Reset  <style> */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+margin: 0;
+border: 0;
+padding: 0;
+
+}
+
+
+/* Importação (Google Fonts)  */
+
+
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+/* Layout */
+
+.Container
+{
+    margin: 0 auto;
+    background-color: #77ff00;
+}
 
 
 /*  SmartPhone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -15,10 +43,20 @@ Folha de estilo site one page HTML5 e CSS3
 { 
     body
     {
-            background-color: #00ffff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1em;
     }
 
+    /* Layout */
+        .Container
+            {
+                max-width: 540px;
+            }
+
+
 }
+
+
     
 
 
@@ -30,6 +68,12 @@ Folha de estilo site one page HTML5 e CSS3
     {
             background-color: #ffff00;
     }
+
+        /* Layout */
+        .Container
+            {
+                max-width: 720px;
+            }
 
 }
 
@@ -44,6 +88,12 @@ Folha de estilo site one page HTML5 e CSS3
             background-color: #ff6600;
     }
 
+        /* Layout */
+        .Container
+            {
+                max-width: 960px;
+            }
+
 }
 
 
@@ -54,7 +104,11 @@ Folha de estilo site one page HTML5 e CSS3
     {
             background-color: #ff0000;
     }
-
+    /* Layout */
+    .Container
+    {
+        max-width: 1140px;
+    }
 }
 
 
